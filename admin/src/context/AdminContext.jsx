@@ -85,7 +85,7 @@ const AdminContextProvider = (props) => {
                 console.log(data.dashData);
                 
             }else{
-                toast.error(data,message)
+                toast.error(data.message)
             }
         } catch (error) {
             toast.error(error.message)
