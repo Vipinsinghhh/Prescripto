@@ -194,6 +194,7 @@ The backend features **secure authentication**, **image upload with Cloudinary**
 - [React.js](https://react.dev/)
 - [MongoDB Atlas](https://www.mongodb.com/cloud/atlas)
 - [Cloudinary account](https://cloudinary.com/)
+- [Razorpay account](https://razorpay.com/) (for payment flow)
 
 ### 🚀 Getting Started
 
