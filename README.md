@@ -2,8 +2,8 @@
 
 ## 🚀 Live Demo
 
-- 🌐 [User Application](https://prescripto-frontend-8rtl.onrender.com)
-- 🛠️ [Admin Panel](https://prescripto-admin-4efz.onrender.com)
+- 🌐 <a href="https://prescripto-frontend-8rtl.onrender.com" target="_blank" rel="noopener noreferrer">User Application</a>
+- 🛠️ <a href="https://prescripto-admin-4efz.onrender.com" target="_blank" rel="noopener noreferrer">Admin Panel</a>
 
 
 
