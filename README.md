@@ -1,4 +1,4 @@
-# 🏥 Prescripto - ##Doctor Appointment Booking System
+# 🏥 Prescripto - ## Doctor Appointment Booking System
 
 ## 📌 Project Overview
 
