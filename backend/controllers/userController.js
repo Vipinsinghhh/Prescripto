@@ -104,10 +104,18 @@ const updateProfile = async (req, res) => {
             return res.json({ success: false, message: "Data Missing" });
         }
 
+        const normalizedGenderMap = {
+            male: "Male",
+            female: "Female",
+            "not selected": "Not Selected",
+        };
+        const normalizedGender =
+            normalizedGenderMap[String(gender).trim().toLowerCase()] || "Not Selected";
+
         const parsedAddress =
             typeof address === "string" ? JSON.parse(address) : address;
 
-        const updateData = { name, phone, address: parsedAddress, dob, gender };
+        const updateData = { name, phone, address: parsedAddress, dob, gender: normalizedGender };
 
         if (imageFile) {
             const imageUpload = await cloudinary.uploader.upload(imageFile.path, {
