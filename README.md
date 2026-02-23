@@ -1,5 +1,12 @@
 # 🏥 Prescripto
 
+## 🚀 Live Demo
+
+- 🌐 [User Application](https://prescripto-frontend-8rtl.onrender.com)
+- 🛠️ [Admin Panel](https://prescripto-admin-4efz.onrender.com)
+
+
+
 ## 📌 Project Overview
 
 The **Prescripto** is a full-stack web application built using the **MERN Stack**: **MongoDB**, **Express.js**, **React.js**, and **Node.js**. This platform streamlines the process of booking medical appointments online by enabling **Admins**, **Doctors**, and **Users** to manage profiles, schedules, and appointments with ease.
@@ -341,7 +348,7 @@ npm run dev
 
 **Vipin Singh**
 
-- 📧 Email: [vipinsingh.cse@gmail.com](mailto:mahmudalam.official@gmail.com)
+- 📧 Email: [vipinsingh.cse@gmail.com](mailto:vipinsingh.cse@gmail.com)
 - 💻 [GitHub](https://github.com/Vipinsinghhh)
 - 💼 [LinkedIn](https://www.linkedin.com/in/vipin-singh1/)
 
