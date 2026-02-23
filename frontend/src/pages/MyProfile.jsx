@@ -115,7 +115,12 @@ const MyProfile = () => {
           <p className='font-medium'>Gender:</p>
           {
             isEdit
-              ? <select className='max-w-20 bg-gray-100' onChange={(e) => setUserData(prev => ({ ...prev, gender: e.target.value }))} value={userData.gender}>
+              ? <select
+                  className='max-w-24 bg-gray-100'
+                  onChange={(e) => setUserData(prev => ({ ...prev, gender: e.target.value }))}
+                  value={['Male', 'Female', 'Not Selected'].includes(userData.gender) ? userData.gender : 'Not Selected'}
+                >
+                <option value="Not Selected">Not Selected</option>
                 <option value="Male">Male</option>
                 <option value="Female">Female</option>
               </select>
